@@ -1,112 +1,112 @@
 [
     {
         "id": "01",
-        "question" : "Which of the following is the correct name of React.js?",
+        "question": "What is the purpose of the `ReactDOM.render()` method?",
         "options": [
-            "React",
-            "React.js",
-            "ReactJS",
-            "All of the above"
+            "It renders a component to the browser DOM.",
+            "It updates the state of a component.",
+            "It creates a new component.",
+            "It defines the virtual DOM."
         ],
-        "answer": "All of the above"
+        "answer": "It renders a component to the browser DOM."
     },
     {
         "id": "02",
-        "question" : "Which of the following are the advantages of React.js?",
+        "question": "What is a higher-order component (HOC) in React?",
         "options": [
-            "React.js can increase the application's performance with Virtual DOM.",
-            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-            "React.js can render both on client and server side.",
-            "All of the above"
+            "A function that takes a component and returns a new component.",
+            "A component that wraps other components.",
+            "A component that renders multiple other components.",
+            "A component that handles API calls."
         ],
-        "answer": "All of the above"
+        "answer": "A function that takes a component and returns a new component."
     },
     {
         "id": "03",
-        "question" : "Which of the following is not a disadvantage of React.js?",
+        "question": "Which of the following best describes a React component?",
         "options": [
-            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-            "The library of React.js is pretty large.",
-            "The JSX in React.js makes code easy to read and write.",
-            "The learning curve can be steep in React.js."
+            "A function that returns HTML elements.",
+            "A JavaScript object that holds the application's state.",
+            "A reusable block of code that can return a UI.",
+            "A DOM element that can be modified."
         ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+        "answer": "A reusable block of code that can return a UI."
     },
     {
         "id": "04",
-        "question" : "Which of the following command is used to install create-react-app?",
+        "question": "How do you pass data from a parent component to a child component in React?",
         "options": [
-            "npm install -g create-react-app",
-            "npx create-react-app my-app",
-            "npm install create-react-app",
-            "npm install -f create-react-app"
+            "Using props.",
+            "Using state.",
+            "Using context.",
+            "Using Redux."
         ],
-        "answer": "npx create-react-app my-app"
+        "answer": "Using props."
     },
     {
         "id": "05",
-        "question" : "What of the following is used in React.js to increase performance?",
+        "question": "In React, which method is used to trigger a re-render of a component when its state changes?",
         "options": [
-            "Original DOM",
-            "Virtual DOM",
-            "Both A and B.",
-            "None of the above."
+            "render()",
+            "setState()",
+            "forceUpdate()",
+            "updateComponent()"
         ],
-        "answer": "Virtual DOM"
+        "answer": "setState()"
     },
     {
         "id": "06",
-        "question" : "What is the default port where webpack-server runs?",
+        "question": "Which hook is used to manage side effects in functional components?",
         "options": [
-            "3000",
-            "8080",
-            "3030",
-            "6060"
+            "useState",
+            "useEffect",
+            "useRef",
+            "useReducer"
         ],
-        "answer": "3000"
+        "answer": "useEffect"
     },
     {
         "id": "07",
-        "question" : "How many numbers of elements a valid react component can return?",
+        "question": "Which of the following is true about the `useState()` hook in React?",
         "options": [
-            "1",
-            "2",
-            "3",
-            "Unlimited"
+            "It allows you to store and update a component's state.",
+            "It is used to create class components.",
+            "It is used to manage the virtual DOM.",
+            "It is a part of the class component lifecycle."
         ],
-        "answer": "1"
+        "answer": "It allows you to store and update a component's state."
     },
     {
         "id": "08",
-        "question" : "What is the declarative way to render a dynamic list of components based on values in an array?",
+        "question": "What is the purpose of `React.Fragment`?",
         "options": [
-            "Using the reduce array method",
-            "Using the <Each /> component",
-            "Using the Array.map() method",
-            "With a for/while loop"
+            "To create a wrapper for components without adding extra nodes to the DOM.",
+            "To manage state in a class component.",
+            "To handle events in functional components.",
+            "To import external libraries."
         ],
-        "answer": "Using the Array.map() method"
+        "answer": "To create a wrapper for components without adding extra nodes to the DOM."
     },
     {
         "id": "09",
-        "question" : "What is a state in React?",
+        "question": "What does the `useEffect()` hook do in React?",
         "options": [
-            "A permanent storage.",
-            "Internal storage of the component.",
-            "External storage of the component.",
-            "None of the above."
+            "It is used to perform side effects in functional components.",
+            "It is used to update the state of a component.",
+            "It is used to pass props to child components.",
+            "It is used to create an event handler."
         ],
-        "answer": "Internal storage of the component."
+        "answer": "It is used to perform side effects in functional components."
     },
     {
         "id": "10",
-        "question" : "What are the two ways to handle data in React?",
+        "question": "What is the main difference between functional components and class components in React?",
         "options": [
-            "State & Props",
-            "Services & Components",
-            "State & Services",
-            "State & Component"
+            "Functional components do not have lifecycle methods, while class components do.",
+            "Functional components are used for UI only, while class components are for logic.",
+            "Class components cannot use hooks, while functional components can.",
+            "Functional components require more boilerplate code than class components."
         ],
-        "answer": "State & Props"
+        "answer": "Functional components do not have lifecycle methods, while class components do."
     }
 ]
